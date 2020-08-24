@@ -124,8 +124,7 @@ main h3, main h4, main h5 {
 }
 
 .sidebar p, .sidebar ul{
-    padding-left: 50px; 
-    padding-bottom: 20px;
+    padding: 0 50px 20px 50px;
 }
 
 #photo{
