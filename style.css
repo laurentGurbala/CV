@@ -186,11 +186,17 @@ main h3, main h4, main h5 {
         width: 100%;
     }
 
+    .content{
+        flex-direction: column;
+    }
 
     main{
         width: 100%;
     }
 
+    header h3{
+        font-size: 1.5em;
+    }
     .sidebar{
         width: 100%;
     }
