@@ -38,6 +38,11 @@ h5{
     font-size: 1em;
 }
 
+p, li{
+    font-family: 'Libre Caslon Display', serif;
+    font-weight: 600;
+}
+
 .prenom {
     color: #FECA07;
     font-weight: bold;
@@ -64,6 +69,14 @@ h5{
 main{
     width: 800px;
     padding: 65px 50px;
+    background-color: #eeeeee;
+}
+
+.fas {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #FECA07;
 }
 
 /* Main */
@@ -99,7 +112,7 @@ main h3, main h4, main h5 {
 
 /* Side bar */
 
-.sidebar > section{
+.sidebar > section, .sidebar > div{
     padding-bottom: 30px;
 }
 
@@ -130,7 +143,13 @@ main h3, main h4, main h5 {
 
 }
 
-#loisirs{
+#loisirs p{
+    text-align: center;
+}
 
+#loisirs .fas{
+    color: #404040;
+    font-size: 2.5em;
+    margin-top: 20px;
 }
 
