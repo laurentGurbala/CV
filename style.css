@@ -1,0 +1,136 @@
+/* Général */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Alata", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 1.2em;
+    text-transform: initial;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 1em;
+}
+
+.prenom {
+    color: #FECA07;
+    font-weight: bold;
+}
+
+.sous-ligne{
+    border-bottom: 3px solid #FECA07;
+}
+
+#wrapper{
+    width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sidebar {
+    width: 390px;
+    background-color: #FECA07;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    width: 800px;
+    padding: 65px 50px;
+}
+
+/* Main */
+
+/* Header */
+header{
+    padding-bottom: 100px;
+}
+
+header h3{
+    text-transform: none;
+    font-size: 1.8em;
+}
+
+main h2{
+    margin-bottom: 40px;
+}
+
+main h3, main h4, main h5 {
+    padding-bottom: 10px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.date{
+    min-width: 250px;
+}
+
+
+/* Side bar */
+
+.sidebar > section{
+    padding-bottom: 30px;
+}
+
+.sidebar h2{
+    background-color : #404040;
+    color: #FECA07;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar p, .sidebar ul{
+    padding-left: 50px; 
+    padding-bottom: 20px;
+}
+
+#photo{
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+#photo img{
+    border-radius: 50%;
+}
+
+
+#a-propos{
+    flex-grow: 3;
+
+}
+
+#loisirs{
+
+}
+
