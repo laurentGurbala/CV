@@ -106,10 +106,12 @@ main h3, main h4, main h5 {
 }
 
 .date{
-    min-width: 250px;
+    flex-basis: auto;
 }
 
-
+.description{
+    flex-basis: 70%;
+}
 /* Side bar */
 
 .sidebar > section, .sidebar > div{
@@ -152,3 +154,48 @@ main h3, main h4, main h5 {
     margin-top: 20px;
 }
 
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    #wrapper{
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    main{
+        width: 100%;
+    }
+
+    .sidebar{
+        width: 100%;
+    }
+
+    #contact{
+        text-align: center;
+    }
+}
+
+/* Phone */
+@media screen and (max-width: 767px){
+    h1{
+        font-size: 2em;
+    }
+
+    #wrapper{
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    main{
+        width: 100%;
+    }
+
+    .sidebar{
+        width: 100%;
+    }
+
+    #contact{
+        text-align: center;
+    }
+}
