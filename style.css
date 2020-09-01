@@ -105,7 +105,7 @@ main h4{
 /* Sidebar */
 .sidebar{
     width: 30%;
-    min-width: 390px;
+   /* min-width: 390px;*/
     background-color: #FECA07;
     display: flex;
     flex-direction: column;
@@ -130,7 +130,7 @@ main h4{
 }
 
 .sidebar p, .sidebar ul{
-    padding: 0 50px 20px 50px;
+    padding: 0 20px 20px 20px;
 }
 
 #propos{
@@ -139,7 +139,12 @@ main h4{
 
 #loisirs .fas {
     color: #404040;
-    font-size: 2.5em;
+    font-size: 2em;
+}
+
+#loisirs div {
+    display: flex;
+    justify-content: center;
 }
 
 /* Tablet */
@@ -174,12 +179,12 @@ main h4{
     }
 
     .fas{
-        margin: 0 5px;
+        display: none !important;
     }
 
     .sidebar{
         width: 100%;
-        min-width: 320px;
+        /*min-width: 320px;*/
     }
 
     .sidebar section{
